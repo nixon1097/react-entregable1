@@ -1,20 +1,24 @@
 .QuoterContent{
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    min-height: 90vh;
+    min-height: 82vh;
     place-items: center;
     width: min(100%,450px);
-    padding: 25px 10px;
-    margin: 0 auto  ;
+    padding: 170px 30px 0 30px;
+    margin: auto  ;
 }
 
-.QuoterContent h1{
-    
+.infogalax{
+
+    font-size: 1.4rem;
     font-family: 'Space Mono', monospace;
-    letter-spacing:.4em;
+    letter-spacing: .4em;
     color: hsl(0, 0%, 100%, 100%);
+    text-align: center;
+    
 }
 .contentbox{
     display: flex;
@@ -23,13 +27,13 @@
     align-items:center;
 }
 .phrase{
-  min-height: 100px;    
- min-width: 200px;
+ min-height: 90px;    
+ min-width: 150px;
  border-radius: 25px 25px;
  background: rgba(251, 247, 241, 0.644) ;
  color:rgb(226, 235, 244);
  margin-bottom:  10px;
- padding: 12px 10px;
+ padding: 2px 5px;
   animation: animat 2s linear infinite;
 }
 .phrase p {
@@ -49,19 +53,18 @@
     cursor:pointer;
     border:none;
     border-radius: 100%;
-    width: 30px;
+    width: 55px;
     aspect-ratio: 1;
     margin: 20px auto;
     padding: 10px 22px;
-    font-size: 24px;
-    font-weight: bold;
     position: relative;
     
 
 }
 
 .bx-revision{
-    display: flex;
+    font-size: 30px;
+     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:center;
@@ -91,22 +94,21 @@
 .footer__autor{
     align-items: end;
     background: rgb( 251, 247, 241, .644);
-    box-shadow:1px -5px 4px 6px rgba(247, 147, 222, 0.393),0 0 0 0 rgba(234, 129, 202, 0.365) ;
-    padding: 10px;
-    height: 140px;
+    box-shadow: 1px -5px 4px 6px rgba(247, 147, 222, 0.393), 0 0 0 0 rgba(234, 129, 202, 0.365);
     border-radius: 100%;
-    width: 140px;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    width: min(150px,450px);
+    margin: auto;
 }
 
 .footer__autor h4 {
-    font-size: .75rem;
+    font-size: .85rem;
     font-family: 'Poppins', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    padding: 30%;
+    padding: 40px 20px;
     text-align:center;
 }
 
@@ -140,4 +142,159 @@
         box-shadow:0 0 0 0 rgb( 251, 247, 241, 0),0 0 0 30px rgb( 251, 247, 241, 0);
         
     }
+}
+@media (min-width:420px){
+    .footer__autor{
+        align-items: end;
+        background: rgb( 251, 247, 241, .644);
+        box-shadow: 1px -5px 4px 6px rgba(247, 147, 222, 0.393), 0 0 0 0 rgba(234, 129, 202, 0.365);
+        border-radius: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        place-items: center;
+        width: min(200px,550px);
+        margin: auto;
+    }
+    
+    .footer__autor h4 {
+        font-size: 1rem;
+        font-family: 'Poppins', sans-serif;
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align:center;
+    }
+    .infogalax{
+
+        font-size: 1.7rem;
+        font-family: 'Space Mono', monospace;
+        letter-spacing: .4em;
+        color: hsl(0, 0%, 100%, 100%);
+        text-align: center;
+        
+    }
+    .QuoterContent{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 82vh;
+        place-items: center;
+        width: min(100%,450px);
+        padding: 170px 10px 0 10px;
+        margin: auto  ;
+    }
+    .btn{
+    
+        background: rgb( 251, 247, 241, .644) ;
+        cursor:pointer;
+        border:none;
+        border-radius: 100%;
+        width: 55px;
+        aspect-ratio: 1;
+        margin: 20px auto;
+        padding: 10px 22px;
+        position: relative;
+        
+    
+    }
+    
+    .bx-revision{
+        font-size: 30px;
+         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    
+
+}
+@media(min-width:750px){
+
+    .footer__autor{
+        align-items: end;
+        background: rgb( 251, 247, 241, .644);
+        box-shadow: 1px -5px 4px 6px rgba(247, 147, 222, 0.393), 0 0 0 0 rgba(234, 129, 202, 0.365);
+        border-radius: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        place-items: center;
+        width: min(200px,550px);
+        margin: auto;
+    }
+    
+    .footer__autor h4 {
+        font-size: 1rem;
+        font-family: 'Poppins', sans-serif;
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align:center;
+    }
+    .infogalax{
+
+        font-size: 3rem;
+        font-family: 'Space Mono', monospace;
+        letter-spacing: .4em;
+        color: hsl(0, 0%, 100%, 100%);
+        text-align: center;
+        
+    }
+    .QuoterContent{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 82vh;
+        place-items: center;
+        width: min(100%,600px);
+        padding: 170px 10px 0 10px;
+        margin: auto  ;
+    }
+    .btn{
+    
+        background: rgb( 251, 247, 241, .644) ;
+        cursor:pointer;
+        border:none;
+        border-radius: 100%;
+        width: 50px;
+        aspect-ratio: 1;
+        margin: 20px auto;
+        padding: 10px 22px;
+        position: relative;
+        
+    
+    }
+    
+    .bx-revision{
+        font-size: 35px;
+         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    
+    .phrase{
+        min-height: 90px;    
+        min-width: 150px;
+        border-radius: 25px 25px;
+        background: rgba(251, 247, 241, 0.644) ;
+        color:rgb(226, 235, 244);
+        margin-bottom:  10px;
+        padding: 2px 5px;
+         animation: animat 2s linear infinite;
+       }
+       .phrase p {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           flex-direction: column;
+           color: black;
+           text-align:center;
+           font-size: 1.3rem;
+           font-family: 'Poppins', sans-serif;
+           
+       }
 }

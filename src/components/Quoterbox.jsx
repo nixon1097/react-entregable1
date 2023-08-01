@@ -2,8 +2,8 @@ import "./styles/Quotebox.css";
 const Quoterbox = ({ handleChange, quotesSpaceS }) => {
   return (
     <section className="QuoterContent">
-      <h1>INFOGALAX</h1>
       <section className="contentbox">
+        <h1 className="infogalax">INFOGALAX</h1>
         <article className="phrase">
           <p>{quotesSpaceS.phrase} </p> <br />
         </article>
@@ -11,12 +11,6 @@ const Quoterbox = ({ handleChange, quotesSpaceS }) => {
           <i className="bx bx-revision"></i>
         </button>
       </section>
-
-      <footer className="footer__autor">
-        <article>
-          <h4> {`Author: ${quotesSpaceS.author} `} </h4>
-        </article>
-      </footer>
     </section>
   );
 };

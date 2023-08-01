@@ -3,6 +3,7 @@ import "./App.css";
 import quotesSpace from "./db/quotesSpace.json";
 import { getRandom } from "./utils/random";
 import Quoterbox from "./components/Quoterbox";
+import Author from "./components/author";
 
 function App() {
   const listImages = ["bg1", "bg2", "bg3", "bg4"];
@@ -24,7 +25,7 @@ function App() {
         quotesSpaceS={quotesSpaceS}
         setQuotesSpaceS={setQuotesSpaceS}
       />
-      <img src="" alt="" />
+      <Author quotesSpaceS={quotesSpaceS} setQuotesSpaceS={setQuotesSpaceS} />
     </main>
   );
 }
